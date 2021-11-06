@@ -43,6 +43,7 @@ Evaluation
 sh train.sh --model pix2seq --output_dir /path/to/save --resume /path/to/checkpoints --eval
 ```
 
+### COCO 
 
 | Method  | backbone | schedule | AP | AP50 | AP75 | Weights |
 | ------- | -------- | -------- | -- | ---- | ---- | ------- |
