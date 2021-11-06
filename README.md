@@ -43,28 +43,10 @@ Evaluation
 sh train.sh --model pix2seq --output_dir /path/to/save --resume /path/to/checkpoints --eval
 ```
 
-<table>
-  <thead>
-    <tr style="text-align: right;">
-      <th>name</th>
-      <th>backbone</th>
-      <th>schedule</th>
-      <th>AP</th>
-      <th>AP50</th>
-      <th>AP75</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Pix2Seq</td>
-      <td>R50</td>
-      <td>300</td>
-      <td>37.0</td>
-      <td>53.4</td>
-      <td>39.4</td>
-    </tr>
-  </tbody>
-</table>
+
+| Method  | backbone | schedule | AP | AP50 | AP75 | Weights |
+| ------- | -------- | -------- | -- | ---- | ---- | ------- |
+| Pix2Seq | R50      | 300      | 37.0 | 53.4 | 39.4 | [weight](https://drive.google.com/file/d/1W0BDmF_YAfMHCimntxWxUgSx88sQFChQ/view?usp=sharing) | 
 
 # Contributor
 Qiu Han, Peng Gao, Jingqiu Zhou(Beam Search)
