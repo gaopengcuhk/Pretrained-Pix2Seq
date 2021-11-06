@@ -47,7 +47,7 @@ sh train.sh --model pix2seq --output_dir /path/to/save --resume /path/to/checkpo
 
 | Method  | backbone | schedule | AP | AP50 | AP75 | Weights |
 | ------- | -------- | -------- | -- | ---- | ---- | ------- |
-| Pix2Seq | R50      | 300      | 37.0 | 53.4 | 39.4 | [weight](https://drive.google.com/file/d/1W0BDmF_YAfMHCimntxWxUgSx88sQFChQ/view?usp=sharing) | 
+| Pix2Seq | R50      | 300      | 37.0 | 53.4 | 39.4 | [weight](https://drive.google.com/file/d/1b7KzqnEBIQCTKmk9SqsXNqX2nlTZSFV_/view?usp=sharing) | 
 
 # Contributor
 Qiu Han, Peng Gao, Jingqiu Zhou(Beam Search)
