@@ -1,0 +1,23 @@
+# output dir
+results
+
+# compilation and distribution
+__pycache__
+_ext
+*.pyc
+*.so
+build/
+dist/
+wheels/
+
+# pytorch/python/numpy formats
+*.pth
+*.pkl
+*.npy
+
+# Pycharm editor settings
+.idea
+
+# dataset
+coco
+
