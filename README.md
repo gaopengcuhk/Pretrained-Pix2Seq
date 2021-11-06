@@ -1,5 +1,5 @@
 # Pretrained-Pix2Seq
-We provide the pre-trained model of Pix2Seq. This version contains new data augmentation and minor modifications of Stable-Pix2Seq. Our Pix2Seq pretrained for 300 epochs can acheive 37 mAP without beam search or neucles search. 
+We provide the pre-trained model of Pix2Seq. This version contains new data augmentation. The model is trained for 300 epochs and can acheive 37 mAP without beam search or neucles search. 
 
 
 ## Installation
@@ -45,12 +45,12 @@ sh train.sh --model pix2seq --output_dir /path/to/save --resume /path/to/checkpo
 
 ### COCO 
 
-| Method  | backbone | schedule | AP | AP50 | AP75 | Weights |
-| ------- | -------- | -------- | -- | ---- | ---- | ------- |
-| Pix2Seq | R50      | 300      | 37.0 | 53.4 | 39.4 | [weight](https://drive.google.com/file/d/1b7KzqnEBIQCTKmk9SqsXNqX2nlTZSFV_/view?usp=sharing) | 
+| Method  | backbone | Epoch | Batch Size | AP   | AP50  | AP75  | Weights |
+| :-----: | :------: | :----:| :---------:| :---:| :---: | :---: | :-----: |
+| Pix2Seq | R50      | 300   | 32         | 37.0 | 53.4 | 39.4 | [weight](https://drive.google.com/file/d/1b7KzqnEBIQCTKmk9SqsXNqX2nlTZSFV_/view?usp=sharing) | 
 
 # Contributor
 Qiu Han, Peng Gao, Jingqiu Zhou(Beam Search)
 
 # Acknowledegement
-This project is motivated by DETR, CATR and FairSeq
+Pix2Seq, DETR 
