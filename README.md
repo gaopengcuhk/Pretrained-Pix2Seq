@@ -49,7 +49,9 @@ sh train.sh --model pix2seq --output_dir /path/to/save --resume /path/to/checkpo
       <th>name</th>
       <th>backbone</th>
       <th>schedule</th>
-      <th>box AP</th>
+      <th>AP</th>
+      <th>AP50</th>
+      <th>AP75</th>
     </tr>
   </thead>
   <tbody>
@@ -58,6 +60,8 @@ sh train.sh --model pix2seq --output_dir /path/to/save --resume /path/to/checkpo
       <td>R50</td>
       <td>300</td>
       <td>37.0</td>
+      <td>53.4</td>
+      <td>39.4</td>
     </tr>
   </tbody>
 </table>
