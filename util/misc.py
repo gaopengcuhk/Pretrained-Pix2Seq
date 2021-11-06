@@ -273,7 +273,7 @@ def collate_fn(batch):
         batch[0] = nested_tensor_from_tensor_list(batch[0] + batch[1], batch[2] + batch[3])
         return tuple([batch[0], batch[2] + batch[3]])
     else:
-        batch[0] = nested_tensor_from_tensor_list(batch[0])
+        batch[0] = nested_tensor_from_tensor_list(batch[0], batch[1])
         return tuple(batch)
 
 
